@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FeWo-direkt Style Website</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <img src="img/logo.svg" alt="logo" />
+        <!-- <a href="#" class="">FeWo-direkt</a> -->
+        <div class="nav-links">
+            <a href="#">Download the app</a>
+            <a href="#">Travel planner</a>
+            <a href="#">Register accommodation</a>
+            <a href="#">Help</a>
+            <a href="#">My travels</a>
+            <a href="#">Register</a>
+        </div>
+    </header>
+
+    <!-- Hero Section with Search -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>The whole accommodation just for you</h1>
+            <div class="search-form">
+                <div class="search-input">
+                    <div class="search-input-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2C8.13 2 5 5.13 5 9C5 14.25 12 22 12 22C12 22 19 14.25 19 9C19 5.13 15.87 2 12 2ZM12 11.5C10.62 11.5 9.5 10.38 9.5 9C9.5 7.62 10.62 6.5 12 6.5C13.38 6.5 14.5 7.62 14.5 9C14.5 10.38 13.38 11.5 12 11.5Z" fill="#666666"/>
+                        </svg>
+                        <span class="search-input-label">Where should we go?</span>
+                    </div>
+                    <input type="text" placeholder="Search destinations">
+                </div>
+                <div class="search-input">
+                    <div class="search-input-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19 4H18V2H16V4H8V2H6V4H5C3.89 4 3.01 4.9 3.01 6L3 20C3 21.1 3.89 22 5 22H19C20.1 22 21 21.1 21 20V6C21 4.9 20.1 4 19 4ZM19 20H5V9H19V20ZM7 11H12V16H7V11Z" fill="#666666"/>
+                        </svg>
+                        <span class="search-input-label">Dates</span>
+                    </div>
+                    <input type="text" placeholder="May 17 - May 31">
+                </div>
+                <div class="search-input">
+                    <div class="search-input-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16 11C17.66 11 18.99 9.66 18.99 8C18.99 6.34 17.66 5 16 5C14.34 5 13 6.34 13 8C13 9.66 14.34 11 16 11ZM8 11C9.66 11 10.99 9.66 10.99 8C10.99 6.34 9.66 5 8 5C6.34 5 5 6.34 5 8C5 9.66 6.34 11 8 11ZM8 13C5.67 13 1 14.17 1 16.5V19H15V16.5C15 14.17 10.33 13 8 13ZM16 13C15.71 13 15.38 13.02 15.03 13.05C16.19 13.89 17 15.02 17 16.5V19H23V16.5C23 14.17 18.33 13 16 13Z" fill="#666666"/>
+                        </svg>
+                        <span class="search-input-label">Guests</span>
+                    </div>
+                    <input type="text" placeholder="2 travelers">
+                </div>
+                <button class="search-button">Seek</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sticky Search (appears when scrolling) -->
+    <div class="sticky-search" id="stickySearch">
+        <div class="search-form">
+            <div class="search-input">
+                <div class="search-input-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2C8.13 2 5 5.13 5 9C5 14.25 12 22 12 22C12 22 19 14.25 19 9C19 5.13 15.87 2 12 2ZM12 11.5C10.62 11.5 9.5 10.38 9.5 9C9.5 7.62 10.62 6.5 12 6.5C13.38 6.5 14.5 7.62 14.5 9C14.5 10.38 13.38 11.5 12 11.5Z" fill="#666666"/>
+                    </svg>
+                    <span class="search-input-label">Where should we go?</span>
+                </div>
+                <input type="text" placeholder="Search destinations">
+            </div>
+            <div class="search-input">
+                <div class="search-input-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19 4H18V2H16V4H8V2H6V4H5C3.89 4 3.01 4.9 3.01 6L3 20C3 21.1 3.89 22 5 22H19C20.1 22 21 21.1 21 20V6C21 4.9 20.1 4 19 4ZM19 20H5V9H19V20ZM7 11H12V16H7V11Z" fill="#666666"/>
+                    </svg>
+                    <span class="search-input-label">Dates</span>
+                </div>
+                <input type="text" placeholder="May 17 - May 31">
+            </div>
+            <div class="search-input">
+                <div class="search-input-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16 11C17.66 11 18.99 9.66 18.99 8C18.99 6.34 17.66 5 16 5C14.34 5 13 6.34 13 8C13 9.66 14.34 11 16 11ZM8 11C9.66 11 10.99 9.66 10.99 8C10.99 6.34 9.66 5 8 5C6.34 5 5 6.34 5 8C5 9.66 6.34 11 8 11ZM8 13C5.67 13 1 14.17 1 16.5V19H15V16.5C15 14.17 10.33 13 8 13ZM16 13C15.71 13 15.38 13.02 15.03 13.05C16.19 13.89 17 15.02 17 16.5V19H23V16.5C23 14.17 18.33 13 16 13Z" fill="#666666"/>
+                    </svg>
+                    <span class="search-input-label">Guests</span>
+                </div>
+                <input type="text" placeholder="2 travelers">
+            </div>
+            <button class="search-button">Seek</button>
+        </div>
+    </div>
+
+    <!-- Content after sticky div -->
+    <section class="content-section">
+        <h2 class="section-title">Find accommodations to suit your taste</h2>
+        <div class="accommodation-types">
+            <div class="accommodation-type">
+                <img src="images/h1.jpg" alt="Holiday home">
+                <div class="accommodation-type-name">holiday home</div>
+            </div>
+            <div class="accommodation-type">
+                <img src="images/h2.jpg" alt="Holiday apartment">
+                <div class="accommodation-type-name">Holiday apartment</div>
+            </div>
+            <div class="accommodation-type">
+                <img src="images/h3.jpg" alt="holiday cottage">
+                <div class="accommodation-type-name">holiday cottage</div>
+            </div>
+            <div class="accommodation-type">
+                <img src="images/h4.jpg" alt="country house">
+                <div class="accommodation-type-name">country house</div>
+            </div>
+            <div class="accommodation-type">
+                <img src="images/h5.jpg" alt="villa">
+                <div class="accommodation-type-name">villa</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content-section">
+        <h2 class="section-title">Browse weekend trips</h2>
+        <p class="section-subtitle">Offers for the period: June 6–June 8</p>
+        <div class="property-listings">
+            <div class="property-card">
+                <img src="images/gst1.jpg" alt="Apartment">
+                <div class="property-info">
+                    <div class="property-rating">9.4 Unusual (10 reviews)</div>
+                    <h3 class="property-title">Nice holiday apartment in a quiet mountain village in Karlsruhe</h3>
+                    <p class="property-location">Karlsruhe, Baden-Württemberg</p>
+                    <p class="property-price">258 €</p>
+                    <p class="property-price-details">129 € per night incl. taxes & fees</p>
+                </div>
+            </div>
+            <div class="property-card">
+                <img src="images/gst2.jpg" alt="Apartment">
+                <div class="property-info">
+                    <div class="property-rating">2.0 (1 review)</div>
+                    <h3 class="property-title">Stylish apartment right next to the university including Netflix</h3>
+                    <p class="property-location">Wuppertal, North Rhine-Westphalia</p>
+                    <p class="property-price">182 €</p>
+                    <p class="property-price-details">91 € per night incl. taxes & fees</p>
+                </div>
+            </div>
+            <div class="property-card">
+                <img src="images/gst3.jpg" alt="Apartment">
+                <div class="property-info">
+                    <div class="property-rating">8.8 Terrific (12 reviews)</div>
+                    <h3 class="property-title">Stylish central apartment with direct water views, balcony and Netflix</h3>
+                    <p class="property-location">Hanover, Lower Saxony</p>
+                    <p class="property-price">256 €</p>
+                    <p class="property-price-details">128 € per night incl. taxes & fees</p>
+                </div>
+            </div>
+            <div class="property-card">
+                <img src="images/gst4.jpg" alt="Apartment">
+                <div class="property-info">
+                    <div class="property-rating">9.8 Unusual (139 reviews)</div>
+                    <h3 class="property-title">Many excursion destinations, e.g. museum village, wildlife park</h3>
+                    <p class="property-location">Hamburg, HH</p>
+                    <p class="property-price">274 €</p>
+                    <p class="property-price-details">137 € per night incl. taxes & fees</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ 
+
+    <script>
+        // JavaScript for the sticky search functionality
+        window.addEventListener('scroll', function() {
+            const stickySearch = document.getElementById('stickySearch');
+            if (window.scrollY > 400) {
+                stickySearch.classList.add('visible');
+            } else {
+                stickySearch.classList.remove('visible');
+            }
+        });
+    </script>
+</body>
+</html>
